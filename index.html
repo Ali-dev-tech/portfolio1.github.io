@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <script src="https://kit.fontawesome.com/73f6a8d89f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+ <div class="site-main-wrapper">
+   <button class="hamburger">
+     <img src="images\hamberger.svg" alt="hamburger">
+   </button>
+   <div class="mobile-nav">
+     <button class="times"><img src="images\times.svg" alt="times"></button>
+     <ul>
+       <li><a href="#">Home</a></li>
+       <li><a href="#about">About</a></li>
+       <li><a href="#services">Services</a></li>
+       <li><a href="#work">Work</a></li>
+       <li><a href="#blog">Blog</a></li>
+      </ul>
+   </div>
+  <header>
+    <div class="container">
+      <nav id="main-nav" class="flex items-center justify-between">
+        <div class="left flex items-center">
+          <div class="branding">
+            <img src="images\logo.svg" alt="logo" />
+          </div>
+          <div>
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#work">Work</a>
+            <a href="#blog">Blog</a>
+          </div>
+        </div>
+        <div class="right">
+         <a href="https://neotechservices.netlify.app/" target="_blank">
+           <button class="btn btn-primary">Contact</button>
+          </a>
+        </div>
+      </nav>
+      <div class="hero flex items-center justify-between">
+        <div class="left flex-1 flex justify-center">
+          <img src="images\man.png" alt="#" />
+        </div>
+        <div class="right flex-1">
+          <h6>Johnatan Vics</h6>
+          <h1>I'm a Creative <span>Designer</span></h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa
+            laboriosam debitis illo voluptates adipisci molestiae deserunt in
+            perspiciatis natus totam nesciunt, nemo cupiditate, quidem
+            quibusdam asperiores! Deleniti perspiciatis earum sequi porro
+            consequatur voluptates, facilis at quo. Id sapiente optio eum.
+          </p>
+          <div>
+            <button class="btn btn-secondary">DOWNLOAD CV</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="about" class="about">
+    <div class="container flex items-center about-inner">
+      <div class="flex-1">
+        <img class="about-me-img" src="images\man-2.png" />
+      </div>
+      <div class="flex-1 right">
+        <h1>About <span>Me</span></h1>
+        <h3>Hello I'm Johnatan Vicks</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Consequuntur rem, sit voluptate quam inventore tempore sapiente aut
+          porro, dolore impedit est cum ab asperiores quas autem vitae nisi
+          ipsa pariatur sequi sed doloribus illum. Eos cum officiis ratione
+          veritatis recusandae! Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit.
+
+          <br />
+          <br />
+          Ipsa corporis laudantium saepe voluptatum sequi commodi nihil, ad
+          possimus? Placeat dolorum fuga unde ut velit? Quisquam
+          necessitatibus omnis eaque.
+        </p>
+        <div class="social">
+          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="services" class="services">
+    <div class="container">
+      <h1 class="section-heading"><span>Our</span> Services</h1>
+      <p>We provide high standard clean website for your business</p>
+      <div class="card-wrapper">
+        <div class="card">
+          <i class="fas fa-paint-brush fa-2x"></i>
+          <h2>Graphic Design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, est!</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-code fa-2x"></i>
+          <h2>Web Development</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, est!</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-briefcase fa-2x"></i>
+          <h2>Media Marketing</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, est!</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-desktop fa-2x"></i>
+          <h2>Web Design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, est!</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-film fa-2x"></i>
+          <h2>Motion Graphic</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, est!</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-mobile-alt fa-2x"></i>
+          <h2>Apps</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, est!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="freelancer">
+    <h1>I Am Available For Freelance</h1>
+    <p>We provide high standard clean websites for your business solutions</p>
+    <button class="btn btn-primary">Donwload CV</button>
+  </section>
+  <section class="reviews">
+    <div class="container">
+      <h1 class="section-heading"><span>Our</span> Client</h1>
+      <p>We provide high standard clean websites for your business solutions</p>
+      <div class="slider">
+        <div class="slide">
+          <img src="images\man-main.jpg">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque magnam quam nesciunt minus
+            voluptatum animi explicabo iusto omnis laboriosam, at velit qui deserunt aspernatur quo
+            ratione earum, molestiae quaerat id?</p>
+          <span>John Doet, Company ABC</span>
+        </div>
+        <div class="slide">
+          <img src="images\man-main.jpg">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque magnam quam nesciunt minus
+            voluptatum animi explicabo iusto omnis laboriosam, at velit qui deserunt aspernatur quo
+            ratione earum, molestiae quaerat id?</p>
+          <span>John Doet, Company ABC</span>
+        </div>
+        <div class="slide">
+          <img src="images\man-main.jpg">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque magnam quam nesciunt minus
+            voluptatum animi explicabo iusto omnis laboriosam, at velit qui deserunt aspernatur quo
+            ratione earum, molestiae quaerat id?</p>
+          <span>John Doet, Company ABC</span>
+        </div>
+        <div class="slide">
+          <img src="images\man-main.jpg">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque magnam quam nesciunt minus
+            voluptatum animi explicabo iusto omnis laboriosam, at velit qui deserunt aspernatur quo
+            ratione earum, molestiae quaerat id?</p>
+          <span>John Doet, Company ABC</span>
+        </div>
+      </div>
+      <div class="slider-dots"></div>
+    </div>
+  </section>
+  <section id="work" class="work">
+    <div class="container">
+      <h1 class="section-heading"><span>Our</span> Work</h1>
+      <p>We provide high standard clean website for your business</p>
+      <div class="card-wrapper">
+        <div class="card">
+          <div class="overlay">
+            <span>Category</span>
+            <a href="#">Web Development</a>
+          </div>
+          <img src="images\ph-1.png">
+        </div>
+        <div class="card">
+          <div class="overlay">
+            <span>Category</span>
+            <a href="#">Web Development</a>
+          </div>
+          <img src="images\ph-2.png">
+        </div>
+        <div class="card">
+          <div class="overlay">
+            <span>Category</span>
+            <a href="#">Web Development</a>
+          </div>
+          <img src="images\ph-3.png">
+        </div>
+        <div class="card">
+          <div class="overlay">
+            <span>Category</span>
+            <a href="#">Web Development</a>
+          </div>
+          <img src="images\ph-1.png">
+        </div>
+        <div class="card">
+          <div class="overlay">
+            <span>Category</span>
+            <a href="#">Web Development</a>
+          </div>
+          <img src="images\ph-2.png">
+        </div>
+        <div class="card">
+          <div class="overlay">
+            <span>Category</span>
+            <a href="#">Web Development</a>
+          </div>
+          <img src="images\ph-3.png">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="blog" class="blog">
+    <div class="container">
+      <h1 class="section-heading"><span>Our</span> Blog</h1>
+      <p>We provide high standard clean website for your business</p>
+
+      <div class="card-wrapper">
+        <div class="card">
+          <div class="img-wrapper">
+            <img src="images\article-ph-1.png">
+          </div>
+          <div class="card-content">
+            <a href="#">
+              <h1>Lorem ipsum dolor sit amet.</h1>
+            </a>
+            <span>May 12,2017</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt praesentium cumque ullam a, sequi in 
+              modi non, delectus perspiciatis vero quo dolorum reiciendis provident, exercitationem voluptate!
+               Alias laudantium, blanditiis minus facilis modi quibusdam! In nisi, repudiandae adipisci eligendi 
+               rerum maiores velit dolorum fugit doloribus illum ab incidunt inventore ex quidem?</p>
+               <a class="read-more" href="#">Read More</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img-wrapper">
+            <img src="images\article-ph-2.png">
+          </div>
+          <div class="card-content">
+            <a href="#">
+              <h1>Lorem ipsum dolor sit amet.</h1>
+            </a>
+            <span>May 12,2017</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt praesentium cumque ullam a, sequi in 
+              modi non, delectus perspiciatis vero quo dolorum reiciendis provident, exercitationem voluptate!
+               Alias laudantium, blanditiis minus facilis modi quibusdam! In nisi, repudiandae adipisci eligendi 
+               rerum maiores velit dolorum fugit doloribus illum ab incidunt inventore ex quidem?</p>
+               <a class="read-more" href="#">Read More</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img-wrapper">
+            <img src="images\article-ph-3.png">
+          </div>
+          <div class="card-content">
+            <a href="#">
+              <h1>Lorem ipsum dolor sit amet.</h1>
+            </a>
+            <span>May 12,2017</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt praesentium cumque ullam a, sequi in 
+              modi non, delectus perspiciatis vero quo dolorum reiciendis provident, exercitationem voluptate!
+               Alias laudantium, blanditiis minus facilis modi quibusdam! In nisi, repudiandae adipisci eligendi 
+               rerum maiores velit dolorum fugit doloribus illum ab incidunt inventore ex quidem?</p>
+               <a class="read-more" href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact">
+    <div class="container">
+      <h1 class="section-heading">Contact <span>Us</span></h1>
+      <p>We provide high standard clean website for your business</p>
+      <div class="card-wrapper">
+        <div class="card">
+          <i class="fas fa-mobile-alt fa-4x"></i>
+          <h1>Call Us On</h1>
+          <h6>+985 123 657</h6>
+        </div>
+        <div class="card">
+          <i class="far fa-envelope fa-4x"></i>
+          <h1>Email Us At</h1>
+          <h6>support@companyname.com</h6>
+        </div>
+        <div class="card">
+          <i class="far fa-map fa-4x"></i>
+          <h1>Visit Office</h1>
+          <h6>United States</h6>
+        </div>
+      </div>
+     <form>
+      <div class="input-wrap">
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+      </div>
+      <div class="input-wrap-2">
+        <input type="text" placeholder="Your Subject">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+      </div>
+      <div class="btn-wrapper">
+        <button class="btn btn-primary">Send Message</button>
+      </div>
+     </form>
+    </div>
+  </section>
+  <footer>
+   <div>
+      <h1>Developed by: <span><a href="https://neotechservices.netlify.app/" target="_blank">NEOTECH</a></span></h1>
+    </div>
+  </footer>
+ </div>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
